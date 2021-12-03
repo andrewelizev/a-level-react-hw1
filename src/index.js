@@ -26,7 +26,7 @@ function Main() {
     <div className="main">
       <img src="google.png" />
       <input type="text" />
-      <div class="wrapper_buttons">
+      <div className="wrapper_buttons">
         {Button('Search')}
         {Button('I am lucky!')}
       </div>
@@ -55,7 +55,7 @@ function Footer() {
 
 ReactDOM.render(
   <React.StrictMode>
-    <div class="wrapper">
+    <div className="wrapper">
       <Header />
       <Main />
       <Footer />
